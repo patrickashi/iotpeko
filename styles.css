@@ -1,0 +1,44 @@
+.icons {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+  }
+  
+  .icons li a {
+    font-size: 12px;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .icon.facebook { color: #f3f5f7; }
+  .icon.github { color: #bebaba; }
+  .icon.email { color: #232222; }
+  .icon.instagram { color: #fffafc; }
+  .icon.tiktok { color: #c4c0c0; }
+  .icon.x { color: #b5b4b4; }
+  .icon.whatsapp { color: #e4e7e5; }
+  .icon.youtube { color: #ffffff; } 
+  /* Base background colors */
+  .icon.facebook { background: #1877f2; }
+  .icon.github { background: #000000; }
+  .icon.email { background: #f8f8f8; }
+  .icon.whatsapp { background: #25D366; } /* WhatsApp Green */
+  .icon.tiktok { background: #000000; }
+  .icon.x { background: #000000; }
+  .icon.youtube { background: #ff0000; } 
+  
+  /* Hover Effects */
+  .icons li a:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
